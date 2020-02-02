@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.sql.SQLOutput;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -15,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.build_layout);
       TextView textView=(TextView) findViewById(R.id.phone);
       textView.setBackgroundColor(Color.GREEN);
+        System.out.println("HIIII");
 
     }
 }
