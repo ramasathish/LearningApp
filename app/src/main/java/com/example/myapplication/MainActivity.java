@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.build_layout);
       TextView textView=(TextView) findViewById(R.id.phone);
       textView.setBackgroundColor(Color.GREEN);
-        System.out.println("HIIII");
+        System.out.println("Hello");
 
     }
 }
