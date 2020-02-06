@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
       TextView textView=(TextView) findViewById(R.id.phone);
       textView.setBackgroundColor(Color.GREEN);
         System.out.println("Rama");
-        System.out.println("Hello baby");
+        System.out.println("Hello BuildVariant");
 
     }
 }
